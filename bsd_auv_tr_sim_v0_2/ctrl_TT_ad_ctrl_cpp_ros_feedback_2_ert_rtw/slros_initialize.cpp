@@ -1,0 +1,56 @@
+#include "slros_initialize.h"
+
+ros::NodeHandle * SLROSNodePtr;
+const std::string SLROSNodeName = "ctrl_TT_ad_ctrl_cpp_ros_feedback_2";
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Subscribe
+SimulinkSubscriber<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Sub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45555;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Subscribe1
+SimulinkSubscriber<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Sub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45560;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Subscribe10
+SimulinkSubscriber<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Sub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45606;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Subscribe11
+SimulinkSubscriber<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Sub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45611;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Subscribe2
+SimulinkSubscriber<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Sub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45565;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Subscribe3
+SimulinkSubscriber<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Sub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45570;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Subscribe4
+SimulinkSubscriber<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Sub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45575;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Subscribe5
+SimulinkSubscriber<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Sub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45581;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Subscribe6
+SimulinkSubscriber<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Sub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45586;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Subscribe7
+SimulinkSubscriber<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Sub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45591;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Subscribe8
+SimulinkSubscriber<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Sub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45596;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Subscribe9
+SimulinkSubscriber<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Sub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45601;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Publish
+SimulinkPublisher<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Pub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45530;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Publish1
+SimulinkPublisher<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Pub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45539;
+
+// For Block ctrl_TT_ad_ctrl_cpp_ros_feedback_2/Publish2
+SimulinkPublisher<std_msgs::Float64, SL_Bus_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_std_msgs_Float64> Pub_ctrl_TT_ad_ctrl_cpp_ros_feedback_2_45545;
+
+void slros_node_init(int argc, char** argv)
+{
+  ros::init(argc, argv, SLROSNodeName);
+  SLROSNodePtr = new ros::NodeHandle();
+}
+

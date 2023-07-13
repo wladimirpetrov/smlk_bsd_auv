@@ -1,0 +1,8 @@
+prefix=/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_3_ws/devel/.private/ctrl_tt_ad_ctrl_cpp_ros_feedback_1
+
+Name: ctrl_tt_ad_ctrl_cpp_ros_feedback_1
+Description: Description of ctrl_tt_ad_ctrl_cpp_ros_feedback_1
+Version: 1.0.0
+Cflags: -I/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_3_ws/src/ctrl_tt_ad_ctrl_cpp_ros_feedback_1/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs

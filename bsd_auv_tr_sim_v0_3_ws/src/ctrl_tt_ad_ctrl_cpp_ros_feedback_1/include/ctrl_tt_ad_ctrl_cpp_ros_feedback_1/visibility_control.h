@@ -1,0 +1,32 @@
+#ifndef CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1__VISIBILITY_CONTROL_H_
+#define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1__VISIBILITY_CONTROL_H_
+#if defined _WIN32 || defined __CYGWIN__
+  #ifdef __GNUC__
+    #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_EXPORT __attribute__ ((dllexport))
+    #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_IMPORT __attribute__ ((dllimport))
+  #else
+    #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_EXPORT __declspec(dllexport)
+    #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_IMPORT __declspec(dllimport)
+  #endif
+  #ifdef CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_BUILDING_LIBRARY
+    #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_PUBLIC CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_EXPORT
+  #else
+    #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_PUBLIC CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_IMPORT
+  #endif
+  #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_PUBLIC_TYPE CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_PUBLIC
+  #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_LOCAL
+#else
+  #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_EXPORT __attribute__ ((visibility("default")))
+  #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_IMPORT
+  #if __GNUC__ >= 4
+    #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_PUBLIC __attribute__ ((visibility("default")))
+    #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_LOCAL  __attribute__ ((visibility("hidden")))
+  #else
+    #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_PUBLIC
+    #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_LOCAL
+  #endif
+  #define CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1_PUBLIC_TYPE
+#endif
+#endif  // CTRL_TT_AD_CTRL_CPP_ROS_FEEDBACK_1__VISIBILITY_CONTROL_H_
+// Generated 06-Jul-2023 09:08:43
+// Copyright 2019-2020 The MathWorks, Inc.

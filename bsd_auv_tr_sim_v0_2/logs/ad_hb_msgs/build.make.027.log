@@ -1,0 +1,29 @@
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target avl_bsd_translator_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target avl_bsd_translator_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target avl_bsd_translator_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target avl_bsd_translator_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target avl_bsd_translator_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target ad_hb_msgs[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ad_hb_msgs.dir/src/ad_hb_msgs.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/devel/.private/ad_hb_msgs/lib/ad_hb_msgs/ad_hb_msgs[0m
+[100%] Built target ad_hb_msgs

@@ -1,0 +1,216 @@
+[35m[1mScanning dependencies of target _avl_bsd_translator_generate_messages_check_deps_HeartbeatMsg[0m
+[35m[1mScanning dependencies of target _avl_bsd_translator_generate_messages_check_deps_ResponseMsg[0m
+[35m[1mScanning dependencies of target _avl_bsd_translator_generate_messages_check_deps_PassthroughMsg[0m
+[35m[1mScanning dependencies of target _avl_bsd_translator_generate_messages_check_deps_ActionMsg[0m
+[35m[1mScanning dependencies of target _avl_bsd_translator_generate_messages_check_deps_DeviceMsg[0m
+[  0%] Built target _avl_bsd_translator_generate_messages_check_deps_ResponseMsg
+[  0%] Built target _avl_bsd_translator_generate_messages_check_deps_HeartbeatMsg
+[  0%] Built target _avl_bsd_translator_generate_messages_check_deps_PassthroughMsg
+[  0%] Built target _avl_bsd_translator_generate_messages_check_deps_ActionMsg
+[  0%] Built target _avl_bsd_translator_generate_messages_check_deps_DeviceMsg
+[35m[1mScanning dependencies of target _avl_bsd_translator_generate_messages_check_deps_CommandMsg[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target _avl_bsd_translator_generate_messages_check_deps_CommandMsg
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_nodejs
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target pcl_ros_gencfg
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target nodelet_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_nodejs
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[  0%] Built target nodelet_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target bond_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target nodelet_topic_tools_gencfg
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target avl_bsd_translator_generate_messages_py[0m
+[35m[1mScanning dependencies of target avl_bsd_translator_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target avl_bsd_translator_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target avl_bsd_translator_generate_messages_lisp[0m
+[  0%] Built target pcl_msgs_generate_messages_py
+[  2%] [34m[1mGenerating Python from MSG avl_bsd_translator/HeartbeatMsg[0m
+[  5%] [34m[1mGenerating Javascript code from avl_bsd_translator/HeartbeatMsg.msg[0m
+[  8%] [34m[1mGenerating Lisp code from avl_bsd_translator/HeartbeatMsg.msg[0m
+[ 11%] [34m[1mGenerating Python from MSG avl_bsd_translator/ActionMsg[0m
+[ 14%] [34m[1mGenerating C++ code from avl_bsd_translator/HeartbeatMsg.msg[0m
+[ 17%] [34m[1mGenerating Javascript code from avl_bsd_translator/ActionMsg.msg[0m
+[ 20%] [34m[1mGenerating Lisp code from avl_bsd_translator/ActionMsg.msg[0m
+[ 23%] [34m[1mGenerating Javascript code from avl_bsd_translator/ResponseMsg.msg[0m
+[ 26%] [34m[1mGenerating Lisp code from avl_bsd_translator/ResponseMsg.msg[0m
+[ 29%] [34m[1mGenerating C++ code from avl_bsd_translator/ActionMsg.msg[0m
+[ 32%] [34m[1mGenerating Javascript code from avl_bsd_translator/CommandMsg.msg[0m
+[ 35%] [34m[1mGenerating Lisp code from avl_bsd_translator/CommandMsg.msg[0m
+[ 38%] [34m[1mGenerating Javascript code from avl_bsd_translator/DeviceMsg.msg[0m
+[ 41%] [34m[1mGenerating Python from MSG avl_bsd_translator/ResponseMsg[0m
+[ 44%] [34m[1mGenerating Javascript code from avl_bsd_translator/PassthroughMsg.msg[0m
+[ 47%] [34m[1mGenerating Lisp code from avl_bsd_translator/DeviceMsg.msg[0m
+[ 50%] [34m[1mGenerating Python from MSG avl_bsd_translator/CommandMsg[0m
+[ 50%] Built target avl_bsd_translator_generate_messages_nodejs
+[ 52%] [34m[1mGenerating Lisp code from avl_bsd_translator/PassthroughMsg.msg[0m
+[ 55%] [34m[1mGenerating Python from MSG avl_bsd_translator/DeviceMsg[0m
+[ 58%] [34m[1mGenerating C++ code from avl_bsd_translator/ResponseMsg.msg[0m
+[ 58%] Built target avl_bsd_translator_generate_messages_lisp
+[35m[1mScanning dependencies of target avl_bsd_translator_generate_messages_eus[0m
+[ 61%] [34m[1mGenerating EusLisp code from avl_bsd_translator/HeartbeatMsg.msg[0m
+[ 64%] [34m[1mGenerating Python from MSG avl_bsd_translator/PassthroughMsg[0m
+[ 67%] [34m[1mGenerating C++ code from avl_bsd_translator/CommandMsg.msg[0m
+[ 70%] [34m[1mGenerating EusLisp code from avl_bsd_translator/ActionMsg.msg[0m
+[ 73%] [34m[1mGenerating C++ code from avl_bsd_translator/DeviceMsg.msg[0m
+[ 76%] [34m[1mGenerating C++ code from avl_bsd_translator/PassthroughMsg.msg[0m
+[ 79%] [34m[1mGenerating EusLisp code from avl_bsd_translator/ResponseMsg.msg[0m
+[ 82%] [34m[1mGenerating EusLisp code from avl_bsd_translator/CommandMsg.msg[0m
+[ 85%] [34m[1mGenerating EusLisp code from avl_bsd_translator/DeviceMsg.msg[0m
+[ 88%] [34m[1mGenerating Python msg __init__.py for avl_bsd_translator[0m
+[ 91%] [34m[1mGenerating EusLisp code from avl_bsd_translator/PassthroughMsg.msg[0m
+[ 91%] Built target avl_bsd_translator_generate_messages_cpp
+[ 94%] [34m[1mGenerating EusLisp manifest code for avl_bsd_translator[0m
+[ 94%] Built target avl_bsd_translator_generate_messages_py
+[ 94%] Built target avl_bsd_translator_generate_messages_eus
+[35m[1mScanning dependencies of target avl_bsd_translator_generate_messages[0m
+[35m[1mScanning dependencies of target bsd_example[0m
+[ 94%] Built target avl_bsd_translator_generate_messages
+[ 97%] [32mBuilding CXX object CMakeFiles/bsd_example.dir/src/node/bsd_example.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_3_ws/devel/.private/avl_bsd_translator/lib/avl_bsd_translator/bsd_example[0m
+[100%] Built target bsd_example

@@ -1,0 +1,169 @@
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:73:9: error: ‘heartbeat_msg’ does not name a type
+   73 |         heartbeat_msg.HEARTBEAT_STATUS = 1;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:87:9: error: ‘heartbeat_msg’ does not name a type
+   87 |         heartbeat_msg.HEARTBEAT_ROLL = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:88:9: error: ‘heartbeat_msg’ does not name a type
+   88 |         heartbeat_msg.HEARTBEAT_PITCH = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:89:9: error: ‘heartbeat_msg’ does not name a type
+   89 |         heartbeat_msg.HEARTBEAT_YAW = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:90:9: error: ‘heartbeat_msg’ does not name a type
+   90 |         heartbeat_msg.HEARTBEAT_VN = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:91:9: error: ‘heartbeat_msg’ does not name a type
+   91 |         heartbeat_msg.HEARTBEAT_VE = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:92:9: error: ‘heartbeat_msg’ does not name a type
+   92 |         heartbeat_msg.HEARTBEAT_VD = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:93:9: error: ‘heartbeat_msg’ does not name a type
+   93 |         heartbeat_msg.HEARTBEAT_DEPTH = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:94:9: error: ‘heartbeat_msg’ does not name a type
+   94 |         heartbeat_msg.HEARTBEAT_HEIGHT = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:95:9: error: ‘heartbeat_msg’ does not name a type
+   95 |         heartbeat_msg.HEARTBEAT_RPM = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:96:9: error: ‘heartbeat_msg’ does not name a type
+   96 |         heartbeat_msg.HEARTBEAT_WX = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:97:9: error: ‘heartbeat_msg’ does not name a type
+   97 |         heartbeat_msg.HEARTBEAT_WY = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:98:9: error: ‘heartbeat_msg’ does not name a type
+   98 |         heartbeat_msg.HEARTBEAT_WZ = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:102:9: error: ‘heartbeat_msg’ does not name a type
+  102 |         heartbeat_msg.HEARTBEAT_AX= 0.0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:103:9: error: ‘heartbeat_msg’ does not name a type
+  103 |         heartbeat_msg.HEARTBEAT_AY = 0.0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:104:9: error: ‘heartbeat_msg’ does not name a type
+  104 |         heartbeat_msg.HEARTBEAT_AZ = 0.0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:105:9: error: ‘heartbeat_msg’ does not name a type
+  105 |         heartbeat_msg.HEARTBEAT_VOLTAGE = 0.0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:106:9: error: ‘heartbeat_msg’ does not name a type
+  106 |         heartbeat_msg.HEARTBEAT_UMODEM_SYNC = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:107:9: error: ‘heartbeat_msg’ does not name a type
+  107 |         heartbeat_msg.HEARTBEAT_MISSION_MODE = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:108:9: error: ‘heartbeat_msg’ does not name a type
+  108 |         heartbeat_msg.HEARTBEAT_FSD_MISSION_STATE = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:109:9: error: ‘heartbeat_msg’ does not name a type
+  109 |         heartbeat_msg.HEARTBEAT_FSD_CURRENT_ACTION = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:110:9: error: ‘heartbeat_msg’ does not name a type
+  110 |         heartbeat_msg.HEARTBEAT_FSD_TOTAL_ACTIONS = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:111:9: error: ‘heartbeat_msg’ does not name a type
+  111 |         heartbeat_msg.HEARTBEAT_FSD_ACTION_PERCENT = 0.0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:112:9: error: ‘heartbeat_msg’ does not name a type
+  112 |         heartbeat_msg.HEARTBEAT_BSD_MISSION_STATE = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:113:9: error: ‘heartbeat_msg’ does not name a type
+  113 |         heartbeat_msg.HEARTBEAT_BSD_CURRENT_ACTION = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:114:9: error: ‘heartbeat_msg’ does not name a type
+  114 |         heartbeat_msg.HEARTBEAT_BSD_TOTAL_ACTIONS = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:115:9: error: ‘heartbeat_msg’ does not name a type
+  115 |         heartbeat_msg.HEARTBEAT_BSD_ACTION_PERCENT = 0.0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:116:9: error: ‘heartbeat_msg’ does not name a type
+  116 |         heartbeat_msg.HEARTBEAT_GPS_SATS = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:117:9: error: ‘heartbeat_msg’ does not name a type
+  117 |         heartbeat_msg.HEARTBEAT_GPS_LAT = 0.0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:118:9: error: ‘heartbeat_msg’ does not name a type
+  118 |         heartbeat_msg.HEARTBEAT_GPS_LON = 0.0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:119:9: error: ‘heartbeat_msg’ does not name a type
+  119 |         heartbeat_msg.HEARTBEAT_GPS_ALT = 0.0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:120:9: error: ‘heartbeat_msg’ does not name a type
+  120 |         heartbeat_msg.HEARTBEAT_NAV_LAT = 0.0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:121:9: error: ‘heartbeat_msg’ does not name a type
+  121 |         heartbeat_msg.HEARTBEAT_NAV_LON = 0.0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:122:9: error: ‘heartbeat_msg’ does not name a type
+  122 |         heartbeat_msg.HEARTBEAT_NAV_ALT = 0.0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:123:9: error: ‘heartbeat_msg’ does not name a type
+  123 |         heartbeat_msg.HEARTBEAT_NAV_YAW_STD = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:124:9: error: ‘heartbeat_msg’ does not name a type
+  124 |         heartbeat_msg.HEARTBEAT_NAV_AVG_POS_ERR = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:125:9: error: ‘heartbeat_msg’ does not name a type
+  125 |         heartbeat_msg.HEARTBEAT_NAV_INITIALIZED = 0;
+      |         ^~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:128:9: error: expected unqualified-id before ‘if’
+  128 |         if (heartbeat_pub.getNumSubscribers() > 0 && ros::ok()) {
+      |         ^~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:134:9: error: ‘z_msg’ does not name a type
+  134 |         z_msg.data = this->z;
+      |         ^~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:135:9: error: ‘z_pub’ does not name a type
+  135 |         z_pub.publish(z_msg);
+      |         ^~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:136:6: error: expected ‘;’ after class definition
+  136 |     }
+      |      ^
+      |      ;
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp: In constructor ‘AUVNode::AUVNode()’:
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:15:9: error: ‘elevator’ was not declared in this scope
+   15 |         elevator = 0.0;
+      |         ^~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:16:9: error: ‘rudder’ was not declared in this scope
+   16 |         rudder = 0.0;
+      |         ^~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:17:9: error: ‘rpm’ was not declared in this scope
+   17 |         rpm = 0.0;
+      |         ^~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:18:9: error: ‘z’ was not declared in this scope
+   18 |         z = 250.0;
+      |         ^
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:24:9: error: ‘heartbeat_pub’ was not declared in this scope; did you mean ‘heartbeat_msg’?
+   24 |         heartbeat_pub = nh.advertise<avl_bsd_translator::HeartbeatMsg>("bsd/heartbeat", 10);
+      |         ^~~~~~~~~~~~~
+      |         heartbeat_msg
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:27:9: error: ‘z_pub’ was not declared in this scope
+   27 |         z_pub = nh.advertise<std_msgs::Float64>("bsd/z", 10);
+      |         ^~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:30:9: error: ‘command_sub’ was not declared in this scope
+   30 |         command_sub = nh.subscribe("bsd/command", 10, &AUVNode::command_callback, this);
+      |         ^~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:30:65: error: ‘command_callback’ is not a member of ‘AUVNode’
+   30 |         command_sub = nh.subscribe("bsd/command", 10, &AUVNode::command_callback, this);
+      |                                                                 ^~~~~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:31:9: error: ‘action_sub’ was not declared in this scope
+   31 |         action_sub = nh.subscribe("bsd/action", 10, &AUVNode::action_callback, this);
+      |         ^~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:31:63: error: ‘action_callback’ is not a member of ‘AUVNode’
+   31 |         action_sub = nh.subscribe("bsd/action", 10, &AUVNode::action_callback, this);
+      |                                                               ^~~~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:33:9: error: ‘update_heartbeat’ was not declared in this scope
+   33 |         update_heartbeat();
+      |         ^~~~~~~~~~~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp: At global scope:
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:138:1: error: expected unqualified-id before ‘private’
+  138 | private:
+      | ^~~~~~~
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/src/auv_imp/src/auv_imp.cpp:147:1: error: expected declaration before ‘}’ token
+  147 | };
+      | ^
+make[2]: *** [CMakeFiles/auv_imp.dir/build.make:63: CMakeFiles/auv_imp.dir/src/auv_imp.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/auv_imp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/build/ctrl_tt_ad_ctrl_cpp_ros_feedback_1/gtest/lib ../lib/libgtest.so -lpthread 
