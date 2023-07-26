@@ -1,0 +1,7 @@
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src/ad_hb_msgs/src/ad_hb_msgs.cpp: In function ‘int main(int, char**)’:
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src/ad_hb_msgs/src/ad_hb_msgs.cpp:80:10: error: ‘class AdHbMsgsNode’ has no member named ‘spin’
+   80 |     node.spin();
+      |          ^~~~
+make[2]: *** [CMakeFiles/ad_hb_msgs.dir/build.make:63: CMakeFiles/ad_hb_msgs.dir/src/ad_hb_msgs.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:486: CMakeFiles/ad_hb_msgs.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

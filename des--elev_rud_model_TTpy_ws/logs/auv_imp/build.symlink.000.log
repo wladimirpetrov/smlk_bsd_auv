@@ -1,0 +1,10 @@
+Symlinking /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TTpy_ws/devel/lib/pkgconfig/auv_imp.pc
+Symlinking /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TTpy_ws/devel/share/auv_imp/cmake/auv_impConfig-version.cmake
+Symlinking /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TTpy_ws/devel/share/auv_imp/cmake/auv_impConfig.cmake
+Cleaning: (/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_ws/devel/.private/auv_imp/cmake.lock, /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_ws/devel/./cmake.lock)
+Cleaning: (/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_ws/devel/.private/auv_imp/lib/pkgconfig/auv_imp.pc, /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_ws/devel/lib/pkgconfig/auv_imp.pc)
+Cleaning: (/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_ws/devel/.private/auv_imp/share/auv_imp/cmake/auv_impConfig-version.cmake, /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_ws/devel/share/auv_imp/cmake/auv_impConfig-version.cmake)
+Cleaning: (/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_ws/devel/.private/auv_imp/share/auv_imp/cmake/auv_impConfig.cmake, /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_ws/devel/share/auv_imp/cmake/auv_impConfig.cmake)
+Unlinking: /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_ws/devel/lib/pkgconfig/auv_imp.pc
+Unlinking: /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_ws/devel/share/auv_imp/cmake/auv_impConfig-version.cmake
+Unlinking: /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_ws/devel/share/auv_imp/cmake/auv_impConfig.cmake

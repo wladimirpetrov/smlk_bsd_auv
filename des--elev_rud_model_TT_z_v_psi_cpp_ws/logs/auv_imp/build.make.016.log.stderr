@@ -1,0 +1,23 @@
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src/auv_imp/src/auv_imp.cpp: In constructor ‘AUVNode::AUVNode(int, char**)’:
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src/auv_imp/src/auv_imp.cpp:10:36: error: no matching function for call to ‘ros::Rate::Rate()’
+   10 |     AUVNode(int argc, char** argv) {
+      |                                    ^
+In file included from /opt/ros/noetic/include/ros/ros.h:39,
+                 from /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src/auv_imp/src/auv_imp.cpp:1:
+/opt/ros/noetic/include/ros/rate.h:59:12: note: candidate: ‘ros::Rate::Rate(const ros::Duration&)’
+   59 |   explicit Rate(const Duration&);
+      |            ^~~~
+/opt/ros/noetic/include/ros/rate.h:59:12: note:   candidate expects 1 argument, 0 provided
+/opt/ros/noetic/include/ros/rate.h:58:3: note: candidate: ‘ros::Rate::Rate(double)’
+   58 |   Rate(double frequency);
+      |   ^~~~
+/opt/ros/noetic/include/ros/rate.h:58:3: note:   candidate expects 1 argument, 0 provided
+/opt/ros/noetic/include/ros/rate.h:51:20: note: candidate: ‘constexpr ros::Rate::Rate(const ros::Rate&)’
+   51 | class ROSTIME_DECL Rate
+      |                    ^~~~
+/opt/ros/noetic/include/ros/rate.h:51:20: note:   candidate expects 1 argument, 0 provided
+/opt/ros/noetic/include/ros/rate.h:51:20: note: candidate: ‘constexpr ros::Rate::Rate(ros::Rate&&)’
+/opt/ros/noetic/include/ros/rate.h:51:20: note:   candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/auv_imp.dir/build.make:63: CMakeFiles/auv_imp.dir/src/auv_imp.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/auv_imp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

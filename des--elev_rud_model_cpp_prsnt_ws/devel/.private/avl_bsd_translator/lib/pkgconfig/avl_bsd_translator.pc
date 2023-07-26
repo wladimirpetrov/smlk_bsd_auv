@@ -1,0 +1,8 @@
+prefix=/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_prsnt_ws/devel/.private/avl_bsd_translator
+
+Name: avl_bsd_translator
+Description: Description of avl_bsd_translator
+Version: 1.0.0
+Cflags: -I/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_prsnt_ws/devel/.private/avl_bsd_translator/include -I/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_prsnt_ws/src/avl_bsd_translator/include
+Libs: -L${prefix}/lib 
+Requires: roscpp message_runtime

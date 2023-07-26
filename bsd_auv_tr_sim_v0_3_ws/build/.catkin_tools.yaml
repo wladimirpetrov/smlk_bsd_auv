@@ -1,0 +1,6 @@
+devel_space: /local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_3_ws/devel
+install: false
+install_space: /local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_3_ws/install
+profile: default
+source_space: /local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_3_ws/src
+workspace: /local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_3_ws

@@ -1,0 +1,8 @@
+prefix=/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/devel/.private/auv_imp
+
+Name: auv_imp
+Description: Description of auv_imp
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

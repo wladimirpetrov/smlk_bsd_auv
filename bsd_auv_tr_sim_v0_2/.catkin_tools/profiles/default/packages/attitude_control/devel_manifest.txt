@@ -1,0 +1,6 @@
+attitude_control
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/devel/.private/attitude_control/cmake.lock /local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/devel/./cmake.lock
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/devel/.private/attitude_control/lib/attitude_control/attitude_control /local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/devel/lib/attitude_control/attitude_control
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/devel/.private/attitude_control/lib/pkgconfig/attitude_control.pc /local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/devel/lib/pkgconfig/attitude_control.pc
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/devel/.private/attitude_control/share/attitude_control/cmake/attitude_controlConfig-version.cmake /local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/devel/share/attitude_control/cmake/attitude_controlConfig-version.cmake
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/devel/.private/attitude_control/share/attitude_control/cmake/attitude_controlConfig.cmake /local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/devel/share/attitude_control/cmake/attitude_controlConfig.cmake

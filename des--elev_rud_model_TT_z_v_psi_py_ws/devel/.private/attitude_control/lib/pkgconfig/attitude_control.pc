@@ -1,0 +1,8 @@
+prefix=/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_py_ws/devel/.private/attitude_control
+
+Name: attitude_control
+Description: Description of attitude_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

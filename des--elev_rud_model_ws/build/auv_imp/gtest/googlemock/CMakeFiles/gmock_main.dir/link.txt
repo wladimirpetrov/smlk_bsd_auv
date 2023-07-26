@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ -fPIC   -shared -Wl,-soname,libgmock_main.so -o ../lib/libgmock_main.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_ws/build/auv_imp/gtest/lib ../lib/libgmock.so ../lib/libgtest.so -lpthread 

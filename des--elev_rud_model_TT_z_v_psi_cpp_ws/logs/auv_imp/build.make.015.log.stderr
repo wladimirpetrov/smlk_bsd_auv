@@ -1,0 +1,29 @@
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src/auv_imp/src/auv_imp.cpp: In constructor ‘AUVNode::AUVNode()’:
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src/auv_imp/src/auv_imp.cpp:11:28: error: no matching function for call to ‘init(const char [8])’
+   11 |         ros::init("auv_imp");
+      |                            ^
+In file included from /opt/ros/noetic/include/ros/node_handle.h:47,
+                 from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src/auv_imp/src/auv_imp.cpp:1:
+/opt/ros/noetic/include/ros/init.h:83:18: note: candidate: ‘void ros::init(int&, char**, const string&, uint32_t)’
+   83 | ROSCPP_DECL void init(int &argc, char **argv, const std::string& name, uint32_t options = 0);
+      |                  ^~~~
+/opt/ros/noetic/include/ros/init.h:83:18: note:   candidate expects 4 arguments, 1 provided
+In file included from /opt/ros/noetic/include/ros/node_handle.h:47,
+                 from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src/auv_imp/src/auv_imp.cpp:1:
+/opt/ros/noetic/include/ros/init.h:93:18: note: candidate: ‘void ros::init(const M_string&, const string&, uint32_t)’
+   93 | ROSCPP_DECL void init(const M_string& remappings, const std::string& name, uint32_t options = 0);
+      |                  ^~~~
+/opt/ros/noetic/include/ros/init.h:93:18: note:   candidate expects 3 arguments, 1 provided
+/opt/ros/noetic/include/ros/init.h:103:18: note: candidate: ‘void ros::init(const VP_string&, const string&, uint32_t)’
+  103 | ROSCPP_DECL void init(const VP_string& remapping_args, const std::string& name, uint32_t options = 0);
+      |                  ^~~~
+/opt/ros/noetic/include/ros/init.h:103:18: note:   candidate expects 3 arguments, 1 provided
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src/auv_imp/src/auv_imp.cpp: In member function ‘void AUVNode::update_heartbeat()’:
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src/auv_imp/src/auv_imp.cpp:119:9: error: ‘rate’ was not declared in this scope
+  119 |         rate.sleep();
+      |         ^~~~
+make[2]: *** [CMakeFiles/auv_imp.dir/build.make:63: CMakeFiles/auv_imp.dir/src/auv_imp.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/auv_imp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

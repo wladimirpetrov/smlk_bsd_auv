@@ -1,0 +1,37 @@
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target avl_bsd_translator_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target avl_bsd_translator_generate_messages_lisp
+[  0%] Built target avl_bsd_translator_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target avl_bsd_translator_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target avl_bsd_translator_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target ad_hb_msgs[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ad_hb_msgs.dir/src/ad_hb_msgs.cpp.o[0m
+[01m[K/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/src/ad_hb_msgs/src/ad_hb_msgs.cpp:[m[K In function ‘[01m[Kvoid heartbeatCallback(const HeartbeatMsg&)[m[K’:
+[01m[K/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/src/ad_hb_msgs/src/ad_hb_msgs.cpp:92:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kavl_bvel_translator[m[K’ has not been declared
+   92 |     [01;31m[Kavl_bvel_translator[m[K::HeartbeatMsg roll_msg;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/src/ad_hb_msgs/src/ad_hb_msgs.cpp:106:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kroll_msg[m[K’ was not declared in this scope
+  106 |     [01;31m[Kroll_msg[m[K.HEARTBEAT_ROLL = roll;
+      |     [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ad_hb_msgs.dir/build.make:63: CMakeFiles/ad_hb_msgs.dir/src/ad_hb_msgs.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:486: CMakeFiles/ad_hb_msgs.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

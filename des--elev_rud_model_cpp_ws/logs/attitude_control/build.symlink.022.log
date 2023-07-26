@@ -1,0 +1,4 @@
+Symlinking /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/devel/lib/attitude_control/attitude_control
+Symlinking /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/devel/lib/pkgconfig/attitude_control.pc
+Symlinking /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/devel/share/attitude_control/cmake/attitude_controlConfig-version.cmake
+Symlinking /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_cpp_ws/devel/share/attitude_control/cmake/attitude_controlConfig.cmake

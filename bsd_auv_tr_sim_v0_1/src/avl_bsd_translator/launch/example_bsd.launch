@@ -1,0 +1,50 @@
+<launch>
+
+    <!-- =================================================================== -->
+    <!-- Vehicle ID Number -->
+    <!-- =================================================================== -->
+    <!-- <rosparam param="/vehicle_id"> 2 </rosparam> -->
+
+    <!-- =================================================================== -->
+    <!-- Console Logging Settings -->
+    <!-- =================================================================== -->
+    <rosparam param="/logging/console/enable"> true </rosparam>
+    <rosparam param="/logging/console/log_node"> false </rosparam>
+    <rosparam param="/logging/console/log_data"> false </rosparam>
+    <rosparam param="/logging/console/log_debug"> false </rosparam>
+    <rosparam param="/logging/console/log_info"> true </rosparam>
+    <rosparam param="/logging/console/log_warning"> true </rosparam>
+    <rosparam param="/logging/console/log_error"> true </rosparam>
+
+    <!-- =================================================================== -->
+    <!-- File Logging Settings -->
+    <!-- =================================================================== -->
+    <rosparam param="/logging/file/enable"> true </rosparam>
+    <rosparam param="/logging/file/log_node"> true </rosparam>
+    <rosparam param="/logging/file/log_data"> true </rosparam>
+    <rosparam param="/logging/file/log_debug"> true </rosparam>
+    <rosparam param="/logging/file/log_info"> true </rosparam>
+    <rosparam param="/logging/file/log_warning"> true </rosparam>
+    <rosparam param="/logging/file/log_error"> true </rosparam>
+
+
+    <!-- =================================================================== -->
+    <!-- Nodes -->
+    <!-- =================================================================== -->
+
+    <!-- UNCOMMENT WHEN PUT ON VEHICLE BSD COMPUTER -->
+    <!-- <node name="bsd_comms_node" pkg="avl_bsd_comms" type="bsd_comms_node"
+            clear_params="true" required="true" output="screen">
+        <rosparam command="load" file="/var/avl_config/bsd_comms_node.config"/>
+    </node> -->
+
+    <!-- <node name="bsd_receiver" pkg="avl_bsd_translator" type="bsd_receiver"
+        clear_params="true" output="screen" required="true">
+    </node>-->
+
+    <node name="bsd_example" pkg="avl_bsd_translator" type="bsd_example"
+            clear_params="true" required="true" output="screen">
+    </node>
+
+
+</launch>

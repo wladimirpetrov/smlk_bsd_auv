@@ -1,0 +1,14 @@
+[31m[1mCMake Error[0m at /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src/attitude_control/CMakeLists.txt:208 (add_executable):
+  Cannot find source file:
+
+    src/attitude_control.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src/attitude_control/CMakeLists.txt:208 (add_executable):
+  No SOURCES given to target: attitude_control
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

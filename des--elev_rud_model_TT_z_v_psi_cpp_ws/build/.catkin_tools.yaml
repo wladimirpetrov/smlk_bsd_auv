@@ -1,0 +1,6 @@
+devel_space: /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/devel
+install: false
+install_space: /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/install
+profile: default
+source_space: /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws/src
+workspace: /local/vol00/home/vpetrov/dev/smlk_bsd_auv/des--elev_rud_model_TT_z_v_psi_cpp_ws

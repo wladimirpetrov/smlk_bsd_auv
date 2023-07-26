@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+
+  <!-- Package Info -->
+  <name>avl_bsd_translator</name>
+  <version>1.0.0</version>
+  <description>Package containing AVL back seat driver nodes</description>
+  <maintainer email="cmorency@vt.edu">Christopher Morency</maintainer>
+  <license>TODO</license>
+  <url type="website">https://cmar.ece.vt.edu/avl/bsd</url>
+
+  <!-- Build Tool Dependency -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Documentation Dependency -->
+  <doc_depend>doxygen</doc_depend>
+
+  <!-- ROS Dependencies -->
+  <depend>roscpp</depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>actionlib</depend>
+  <depend>actionlib_msgs</depend>
+
+  <!-- AVL Package Dependencies -->
+  <depend>avl_core</depend>
+  <depend>avl_asio</depend>
+  <depend>avl_bsd_comms</depend>
+
+</package>

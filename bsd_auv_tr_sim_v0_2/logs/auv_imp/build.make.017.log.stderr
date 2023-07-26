@@ -1,0 +1,10 @@
+[01m[K/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/src/auv_imp/src/auv_imp.cpp:[m[K In member function ‘[01m[Kvoid AUVNode::action_callback(const ConstPtr&)[m[K’:
+[01m[K/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_2/src/auv_imp/src/auv_imp.cpp:43:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krudder[m[K’
+   43 |         elevator = std::stod(msg->VALUES[1])
+      |                                             [01;31m[K^[m[K
+      |                                             [32m[K;[m[K
+   44 |         [32m[Krudder[m[K = std::stod(msg->VALUES[2]);
+      |         [32m[K~~~~~~[m[K                               
+make[2]: *** [CMakeFiles/auv_imp.dir/build.make:63: CMakeFiles/auv_imp.dir/src/auv_imp.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/auv_imp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

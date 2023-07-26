@@ -1,0 +1,1 @@
+/local/vol00/home/vpetrov/dev/smlk_bsd_auv/bsd_auv_tr_sim_v0_3_ws/devel/.private/catkin_tools_prebuild/local_setup.zsh
