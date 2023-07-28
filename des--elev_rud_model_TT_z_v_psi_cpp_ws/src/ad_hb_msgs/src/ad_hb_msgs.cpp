@@ -25,8 +25,8 @@ public:
         // Initialize the publishers
         psi_ref_pub = nh.advertise<std_msgs::Float64>("psi_ref_msg", 10);
         z_ref_pub = nh.advertise<std_msgs::Float64>("z_ref_msg", 10);
-        x_lat_des_pub = nh.advertise<std_msgs::Float64>("x_lat_des_msg", 10);
-        y_long_des_pub = nh.advertise<std_msgs::Float64>("y_long_des_msg", 10);
+        x_lat_des_pub = nh.advertise<std_msgs::Float64>("x_des_msg", 10);
+        y_long_des_pub = nh.advertise<std_msgs::Float64>("y_des_msg", 10);
         n_rpm_pub = nh.advertise<std_msgs::Float64>("n_rpm_msg", 10);
 
         // Start the timer to trigger the calculations at a fixed rate
