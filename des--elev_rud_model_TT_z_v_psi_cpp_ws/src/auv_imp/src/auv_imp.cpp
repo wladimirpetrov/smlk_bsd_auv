@@ -19,8 +19,8 @@ public:
         rudder = 0.0;
         rpm = 0.0;
         z = 250.0;  // Initial depth value
-        x = 0.0;    // Initial x position
-        y = 0.0;    // Initial y position
+        x = 51.5074;    // Initial x position (latitude)
+        y = -0.1278;    // Initial y position (longitude)
     }
 
     void command_callback(const avl_bsd_translator::CommandMsg::ConstPtr& command_msg) {
@@ -35,36 +35,46 @@ public:
 
     void update_heartbeat() {
         double roll = 0.0;
-        double pitch = 0.0;
-        double yaw = 0.0;
-        double z_value = z;  // Set the initial depth value
-        double u = elevator;
-        double v = rudder;
+        double pitch = elevator; // Use the elevator angle directly as the pitch value
+        double yaw = rudder;     // Use the rudder angle directly as the yaw value
+        double z_value = z;      // Set the initial depth value
+        double u = 0.0;
+        double v = 0.0;
         double w = 0.0;
         double p = 0.0;
         double q = 0.0;
         double r = 0.0;
 
-        double dt = 1.0;  // Time step in seconds
+        double dt = 1.0; // Time step in seconds
 
-        // Convert elevator and rudder from degrees to radians
+        // Convert RPM to revolutions per second (RPS)
+        double rpm_to_rps = rpm / 60.0;
+
+        // Assuming a propeller circumference of 0.1 meters
+        double prop_circumference = 0.1;
+
+        // Calculate approximate linear speed based on propeller circumference
+        double linear_speed = rpm_to_rps * prop_circumference;
+
+        // Calculate the change in x and y positions based on the approximate linear speed, pitch, and yaw
+        double x_change = linear_speed * dt * cos(pitch) * cos(yaw);
+        double y_change = linear_speed * dt * cos(pitch) * sin(yaw);
+
+        // Convert the change in meters to latitude and longitude units (approximation for small area)
+        double lat_to_meter = 1.0 / 111320.0;
+        double lon_to_meter = 1.0 / (111320.0 * cos(x * M_PI / 180.0));
+
+        // Update x and y positions in latitude and longitude units
+        x += x_change * lat_to_meter;
+        y += y_change * lon_to_meter;
+
+        // Calculate the depth based on elevator control
         double elevator_rad = M_PI * elevator / 180.0;
-        double rudder_rad = M_PI * rudder / 180.0;
-
-        // Calculate depth based on elevator control
         double depth = z_value + (w * dt) + (0.5 * elevator_rad * pow(dt, 2));
 
-        // Calculate the change in x and y positions based on rudder input
-        double x_change = v * dt * cos(rudder_rad);  // v is the rudder input
-        double y_change = v * dt * sin(rudder_rad);  // v is the rudder input
+        z_value = depth; // Update the depth with the new calculated value
 
-        // Update x and y positions
-        x += x_change;
-        y += y_change;
-
-        z_value = depth;  // Update the depth with the new calculated value
-
-        z = z_value;  // Store the updated depth value
+        z = z_value; // Store the updated depth value
 
         // Publish depth value to additional topic
         std_msgs::Float64 depth_msg;
@@ -100,8 +110,8 @@ public:
         heartbeat_msg.HEARTBEAT_BSD_TOTAL_ACTIONS = 0;
         heartbeat_msg.HEARTBEAT_BSD_ACTION_PERCENT = 0;
         heartbeat_msg.HEARTBEAT_GPS_SATS = 0;
-        heartbeat_msg.HEARTBEAT_GPS_LAT = 0;
-        heartbeat_msg.HEARTBEAT_GPS_LON = 0;
+        heartbeat_msg.HEARTBEAT_GPS_LAT = x;
+        heartbeat_msg.HEARTBEAT_GPS_LON = y;
         heartbeat_msg.HEARTBEAT_GPS_ALT = 0.0;
         heartbeat_msg.HEARTBEAT_NAV_LAT = 0;
         heartbeat_msg.HEARTBEAT_NAV_LON = 0;
@@ -109,7 +119,6 @@ public:
         heartbeat_msg.HEARTBEAT_NAV_YAW_STD = 0;
         heartbeat_msg.HEARTBEAT_NAV_AVG_POS_ERR = 0;
         heartbeat_msg.HEARTBEAT_NAV_INITIALIZED = 0;
-
         heartbeat_pub.publish(heartbeat_msg);
     }
 
