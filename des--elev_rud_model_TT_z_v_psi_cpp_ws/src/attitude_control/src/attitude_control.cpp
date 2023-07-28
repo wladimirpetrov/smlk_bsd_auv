@@ -58,13 +58,6 @@ public:
         nh.param<double>("ky", ky, 1.0);
     }
 
-    void x_actual_callback(const std_msgs::Float64& msg) {
-        x = msg.data;
-    }
-
-    void y_actual_callback(const std_msgs::Float64& msg) {
-        y = msg.data;
-    }
 
     void z_ref_callback(const std_msgs::Float64& msg) {
         z_ref = msg.data;
@@ -92,6 +85,8 @@ public:
         pitch = msg.HEARTBEAT_PITCH;
         yaw = msg.HEARTBEAT_YAW;
         actual_speed = msg.HEARTBEAT_RPM;
+        x = msg.HEARTBEAT_GPS_LAT;
+        y = msg.HEARTBEAT_GPS_LON;
 
         double u = v_north * cos(pitch) * cos(yaw) + v_east * (sin(roll) * sin(pitch) * cos(yaw) - cos(roll) * sin(yaw)) + v_depth * (cos(roll) * sin(pitch) * cos(yaw) + sin(roll) * sin(yaw));
         double v = v_north * cos(pitch) * sin(yaw) + v_east * (sin(roll) * sin(pitch) * sin(yaw) + cos(roll) * cos(yaw)) + v_depth * (cos(roll) * sin(pitch) * sin(yaw) - sin(roll) * cos(yaw));
