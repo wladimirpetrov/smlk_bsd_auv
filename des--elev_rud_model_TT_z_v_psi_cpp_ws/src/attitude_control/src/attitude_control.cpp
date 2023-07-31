@@ -109,7 +109,7 @@ public:
         double v_des = kx * fabs(x_error_rot);
         double psi_des = ky * y_error_rot;
 
-        double elevator = PID(z_error, kp_elevator, ki_elevator, kd_elevator, zerr_prev, zerrint_prev);
+        double elevator = -PID(z_error, kp_elevator, ki_elevator, kd_elevator, zerr_prev, zerrint_prev); // used to be +PID
         double rudder = PID(psi_des - psi, kp_rudder, ki_rudder, kd_rudder, psierr_prev, psierrint_prev);
         double prop = fabs(PID(v_des, kp_prop, ki_prop, kd_prop, verr_prev, verrint_prev));
 
