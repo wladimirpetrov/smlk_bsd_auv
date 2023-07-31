@@ -12,6 +12,8 @@ public:
 
         heartbeat_pub = nh.advertise<avl_bsd_translator::HeartbeatMsg>("bsd/heartbeat", 10);
         z_pub = nh.advertise<std_msgs::Float64>("bsd/z", 10);
+        x_pub = nh.advertise<std_msgs::Float64>("bsd/x", 10); // New publisher for x position
+        y_pub = nh.advertise<std_msgs::Float64>("bsd/y", 10); // New publisher for y position
         command_sub = nh.subscribe("bsd/command", 10, &AUVNode::command_callback, this);
         action_sub = nh.subscribe("bsd/action", 10, &AUVNode::action_callback, this);
 
@@ -68,9 +70,18 @@ public:
         x += x_change * lat_to_meter;
         y += y_change * lon_to_meter;
 
+        // Publish updated x and y positions
+        std_msgs::Float64 x_msg;
+        x_msg.data = x;
+        x_pub.publish(x_msg);
+
+        std_msgs::Float64 y_msg;
+        y_msg.data = y;
+        y_pub.publish(y_msg);
+
         // Calculate the depth based on elevator control
         double elevator_rad = M_PI * elevator / 180.0;
-        double depth = z_value + (w * dt) + (0.5 * elevator_rad * pow(dt, 2));
+        double depth = z_value - (w * dt) - (0.5 * elevator_rad * pow(dt, 2)); // used to be + +
 
         z_value = depth; // Update the depth with the new calculated value
 
@@ -134,6 +145,8 @@ private:
     ros::NodeHandle nh;
     ros::Publisher heartbeat_pub;
     ros::Publisher z_pub;
+    ros::Publisher x_pub; // New publisher for x position
+    ros::Publisher y_pub; // New publisher for y position
     ros::Subscriber command_sub;
     ros::Subscriber action_sub;
     double elevator;
